@@ -13,7 +13,7 @@ jobs:
   spell-ckeck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.6.0
+      - uses: actions/checkout@v5.0.0
       - uses: streetsidesoftware/cspell-action@v3
         name: Spell Check
         id: spellcheck
